@@ -20,7 +20,7 @@ def get_base64_of_bin_file(bin_file):
     except:
         return None
 
-bin_str = get_base64_of_bin_file('IMG_5952.JPG')
+bin_str = get_base64_of_bin_file('IMG_5952.jpg')
 if bin_str:
     background_css = f"""
     <style>
