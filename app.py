@@ -396,7 +396,7 @@ def commander_page():
     st.markdown(f"<p style='color:#556644; font-weight:bold; text-align:right;'>מציג ועורך כעת נתונים בלעדיים עבור: מחלקה {selected_dept}</p>", unsafe_allow_html=True)
     st.markdown("---")
 
-    tab1, tab2, tab3 = st.tabs(["⚙️ הגדרת דרישות", "🚦 סטטוס אילוצים", "📅 לוח יציאות דינמי"])
+    tab1, tab2, tab3, tab4 = st.tabs(["⚙️ הגדרת דרישות", "🚦 סטטוס אילוצים", "📅 לוח יציאות דינמי", "🪖 מצבת כוח אדם"])
     
     with tab1:
         with st.form("commander_constraints_form"):
